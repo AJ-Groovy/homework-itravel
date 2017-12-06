@@ -1,0 +1,242 @@
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 1170px){
+
+
+
+}
+
+@media screen and (max-width: 970px){
+
+    html {
+        font-size: 2vw;
+    }
+
+    .experiance .cta_header {
+        right: -18%;
+    }
+
+    .hero_image {
+        text-align: center;
+    }
+
+    .image_slider {
+        position: static;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .image_slider .paragraph {
+        text-align: center;
+    }
+
+    .image_slider ul {
+        justify-content: space-around;
+    }
+
+    .slider_controls {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 768px){
+
+    html {
+        font-size: 2.5vw;
+    }    
+    .logo a {
+        flex-direction: column;
+    }
+
+
+    .video_wrapper {
+        top: 58%;
+        left: 50%;
+        margin-left: -100px;
+        margin-top: 0;
+    }
+
+    .experiance {
+        margin-top: 0;
+    }
+
+    .offer {
+        font-size: 1.4rem;
+        width: 260px;
+        margin-top: 15px;
+    }
+
+    .offer_description {
+        background-position: 50% 90%;
+        background-size: 100%;
+    }
+
+    .image_gallery {
+        margin-bottom: 0;
+    }
+
+    .image_gallery .cta_header {
+        position: static;
+        text-align: center;
+    }
+
+    .image_slider img {
+        width: 100%;
+    }
+
+    .offer img {
+        bottom: 13%;
+        opacity: 0.2;   
+    }
+
+    .accomodation::before,
+    .excursions::before,
+    .transportation::before,
+    .food::before,
+    .price::before {
+        font-size: 1.1rem;
+    }
+
+    .social .cta_header {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    .logo {
+        flex-basis: 300px;
+    }
+
+    .logo h1 {
+        font-size: 3rem;
+    }    
+
+    
+    .logo a {
+        flex-direction: row;
+    }
+
+
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+        visibility: hidden;
+    }
+
+    nav:before {
+        content: "";
+        position: absolute;
+        left: 70%;
+        top: -20px;
+        width: 35px;
+        height: 4px;
+        background: black;
+        box-shadow: 0 10px 0 0 black, 0 20px 0 0 black;
+    }
+
+    .header_links .btn {
+        display: none;
+    }
+
+    .header_section::after {
+        display: none;
+    }
+
+    .subheader {
+        font-size: 2rem;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .paragraph {
+        font-size: 1.3rem;
+        line-height: 1.3;
+        margin: 10px auto 15px;
+    }
+
+    .hero_image img {
+        width: 100%;
+    }
+
+    .experiance {
+        width: 100%;
+    }
+
+    .experiance_list_item {
+        font-size: 2rem;
+    }
+
+    .experiance .cta_header {
+        font-size: 3.5rem;
+    }
+
+    .video_wrapper {
+        display: none;  
+    }
+
+    .price_offers .main_header {
+        margin-bottom: 15px;
+    }
+
+    .social {
+        flex-direction: column;
+    }
+    
+    .contact_info {
+        font-size: 1.2rem;
+    }
+
+    .accomodation::before,
+    .excursions::before,
+    .transportation::before,
+    .food::before,
+    .price::before {
+        font-size: 2rem;
+    }
+    
+
+    .offer_body {
+        font-size: 2.5rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 320px){
+
+    .image_slider {
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-height: 500px) {
+    .header_section {
+        min-height: 600px;
+    }
+
+    .offer_description {
+        min-height: 500px;
+    }
+}
+
+@media screen and (max-height: 500px) and (max-width: 480px) {
+    .header_section {
+        min-height: 750px;
+    }
+
+    .offer_description {
+        min-height: 700px;
+    }
+}
